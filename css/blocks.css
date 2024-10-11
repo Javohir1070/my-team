@@ -1,36 +1,3 @@
-@font-face {
-  font-display: swap;
-  font-family: "Livvic";
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/livvic-v14-latin-600.woff2") format("woff2");
-}
-@font-face {
-  font-display: swap;
-  font-family: "Livvic";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/livvic-v14-latin-700.woff2") format("woff2");
-}
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Livvic", sans-serif;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 .site-header {
   padding: 73px 0 129px;
   background-color: #014E56;
@@ -84,32 +51,6 @@ body {
   color: #002529;
 }
 
-.header-btn {
-  border: none;
-  background-color: transparent;
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .site-logo {
-    width: 128px;
-    height: 32px;
-  }
-  .header-logo-wrapper {
-    gap: 48px;
-  }
-}
-@media (max-width: 546px) {
-  .site-header {
-    padding: 48px 0 80px;
-  }
-  .header-contact-link, .header-list {
-    display: none;
-  }
-  .header-btn {
-    display: block;
-  }
-}
 .hero-section {
   background-color: #014E56;
   background-image: url(../images/hero-bg1.svg);
@@ -162,57 +103,6 @@ body {
   color: white;
 }
 
-@media (max-width: 768px) {
-  .hero {
-    flex-direction: column;
-    align-items: center;
-    background-position-x: center;
-  }
-  .hero > h2 {
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-    margin-bottom: 24px;
-    text-align: center;
-  }
-  .hero-content-wrapper > span {
-    display: none;
-  }
-  .hero-content-wrapper > p {
-    max-width: 457px;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 15px;
-  }
-  .hero-content-wrapper {
-    width: 100%;
-  }
-  .hero-title-color {
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 56px;
-  }
-}
-@media (max-width: 546px) {
-  .hero {
-    padding-bottom: 197px;
-  }
-  .hero > h2 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 24px;
-    text-align: center;
-  }
-  .hero-title-color {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
-  }
-  .hero-content-wrapper > p {
-    max-width: 327px;
-  }
-}
 .build-section {
   padding: 140px 140px;
   background-color: #012F34;
@@ -458,4 +348,4 @@ p {
 
 .footer-link-wrapper:hover {
   color: #F67E7E;
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=blocks.css.map */

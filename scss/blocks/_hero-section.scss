@@ -1,0 +1,97 @@
+.hero-section {
+    background-color:#014E56;
+    background-image: url(../images/hero-bg1.svg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: calc(50% - 740px) top;
+}
+.hero{
+    padding-bottom: 250px;
+    background-image: url(../images/hero-bg2.svg);
+    background-repeat: no-repeat;
+    background-size: 358px;
+    background-position: right bottom;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.hero > h2{
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    color: white;   
+}
+.hero-title-color {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;     
+    color: #F67E7E;
+}
+.hero-content-wrapper {
+    width: 445px;
+}
+.hero-content-wrapper > span{
+    display: inline-block;
+    margin-bottom: 79px;
+    width: 50px;
+    height: 4px;
+    background-color: #79C8C7;
+} 
+.hero-content-wrapper > p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color:white;
+}
+
+@media (max-width:768px){
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        background-position-x: center;
+    }
+    .hero > h2{
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 56px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+    .hero-content-wrapper > span{
+        display: none;
+    }
+    .hero-content-wrapper > p{
+        max-width: 457px;
+        margin: 0 auto; 
+        text-align: center;
+        font-size: 15px;
+    }
+    .hero-content-wrapper{
+        width: 100%;
+    }
+    .hero-title-color{
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 56px;
+    }
+}  
+@media (max-width:546px){
+    .hero{
+      padding-bottom: 197px;
+    }
+    .hero > h2{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+    .hero-title-color{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .hero-content-wrapper > p{
+        max-width: 327px;
+    }
+}

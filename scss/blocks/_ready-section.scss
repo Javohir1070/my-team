@@ -1,0 +1,27 @@
+.ready-section {
+    padding: 76px 76px;
+    background-color: #F67E7E;
+    background-image: url(../images/ready-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 160px 120px;
+    background-position: left bottom;
+}
+.ready-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.ready-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #012F34;   
+}
+.ready-link{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #012F34;
+    border: 2px solid #012F34;
+    border-radius: 30px;
+    padding: 10px 33px;
+}
