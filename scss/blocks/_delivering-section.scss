@@ -64,3 +64,40 @@ span{
 .delivering-img:hover {
     transform: scale(1.2);
 }
+
+@media (max-width:980px){
+    .delivering-section{
+        padding: 100px  0;
+    }
+    .delivering-title{
+         width: 75%;
+         margin-bottom: 48px;
+         font-size: 32px;
+         line-height: 32px;
+    }
+    span{
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .delivering-list {
+        flex-direction: column;
+    }
+    .delivering-item{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .delivering-text{
+        margin-bottom: 16px;
+    }
+    .delivering-count {
+        margin-bottom: 16px;
+    }
+}
+@media (max-width:550px){
+    .delivering-section{
+        padding: 140px  0 164px;
+    }
+    .delivering-title , .delivering-item{
+        width: 100%;
+   }
+}
